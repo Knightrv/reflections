@@ -3,22 +3,23 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+ How can you use the staging area to make sure you have one commit per logical
+change? 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+  
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
+ What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
+ What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
-When we initialize a repository it starts to keep track of all the commits  Staging area is different from working directory because it offers us to make changes in multiple and then
-we will make from then onwards.                                             bundle the changes into one commit and send it to the repository unlike the working directory where change in 
-We need it in order to get versions of the code so that we can minimize     one file is made as one commit and then stored in repository.
-the time needed to find bugs or update an existing code.                    Whereas a repository is different from staging area because we can remove files from staging area but that can't
-                                                                             be done in case of repositories.
+When we initialize a repository it starts to keep track of all the commits  Staging area is different from working directory because it offers us to make changes in multiple and then         We can add all files to committed into staging area and then bundle those files      Branches can be helpful if we want to modify a code into 2 parts in order to cater to 2 different causes  eg.       Diagrams help us to visualize the branch structure by       Merging of branches results in simplicity of files.It helps to keep only one original copy of data and   PROS OF MANUAL MERGING:desired result, almost perfect.
+we will make from then onwards.                                             bundle the changes into one commit and send it to the repository unlike the working directory where change in       with same logic change and then commit to repository.                               we can make 2 versions of a game one in spanish and one in italian in order to cater to the audiences of            showing the relation between current commit and parent      erase the remaining copies.                                                                              CONS OF MANUAL MERGING:time consuming,hard work involved.
+We need it in order to get versions of the code so that we can minimize     one file is made as one commit and then stored in repository.                                                                                                                                           of both these countries in addition to the english speaking countries as our main code is written in english.       commit.It also gives us an idea of the unreachable          It is a good practice to represent the process in diadram because it helps a person to understand the    PROS OF AUTOMATIC MERGING:time saving,user friendly.
+the time needed to find bugs or update an existing code.                    Whereas a repository is different from staging area because we can remove files from staging area but that can't                                                                                        Branches would be helpful in the case if a bug is introduced in the master code instead in the branches , we        commits.                                                    the relation between different files and diectories.                                                     CONS OF AUTOMATIC MERGING:produces undesired result sometimes.
+                                                                             be done in case of repositories.                                                                                                                                                                       can directly move to the main code and make improvements there and as a resut all those changes will also be
+                                                                                                                                                                                                                                                                                     introduced in the branches of the master code.  
